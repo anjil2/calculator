@@ -1,0 +1,52 @@
+.container{
+    margin: 150px 500px 150px 510px;
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.container:hover{
+    box-shadow: 2px 3px 10px rgb(120, 119, 119);
+}
+.container #inputtext{
+    box-shadow: 2px 3px 5px black;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   padding:14px 17px;
+   margin-bottom: 10px;
+   font-weight: bold;
+   font-size: 13.5px;
+}
+
+.row button{
+    margin: 5px;
+ padding: 8px 15px;
+ border-radius: 10px;
+ outline: none;
+ border: none;
+ font-weight: bold;
+ font-size: 20px;
+}
+.row button:hover{
+    box-shadow: 2px 5px 10px black;
+}
+.row .slash{
+    padding: 8px 18px;
+}
+.row .minus{
+    padding: 8px 18px;
+}
+.row .product{
+    padding: 8px 17px;
+}
+.row .delete{
+    padding: 8px 26px;
+}
+.row .equal{
+    padding: 8px 42px;
+    margin-left: 5px;
+}
+.row .point{
+    padding: 8px 18px;
+}
